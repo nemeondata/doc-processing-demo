@@ -76,7 +76,7 @@ def send_data(materials, prompt, response_model, client, fallback = 'gpt-4o-mini
     return ai_response
 
 def main():
-    st.title('Bulk Upload Demo')
+    st.title('Nemeon Document Intelligence Demo')
 
     files = st.file_uploader('Please upload a PDF!', type='.pdf', accept_multiple_files=False)
 
